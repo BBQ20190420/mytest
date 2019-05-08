@@ -1,4 +1,4 @@
-#coding:utf-8
+# -*- coding: utf-8 -*-
 import unittest
 import os
 import HTMLTestRunnerCN
@@ -43,6 +43,7 @@ if __name__ == '__main__':
     print(cases)
     for i in cases:
         run(i)
+        print("开始测试")
 
 
 
